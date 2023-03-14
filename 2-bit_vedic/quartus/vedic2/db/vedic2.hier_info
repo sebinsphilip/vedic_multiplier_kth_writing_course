@@ -1,0 +1,15 @@
+|vedic2
+A[0] => r00~0.IN0
+A[0] => r01.IN0
+A[1] => r10.IN0
+A[1] => r11.IN0
+B[0] => r00~0.IN1
+B[0] => r10.IN1
+B[1] => r01.IN1
+B[1] => r11.IN1
+P[0] <= r00~0.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= P~0.DB_MAX_OUTPUT_PORT_TYPE
+P[2] <= P~1.DB_MAX_OUTPUT_PORT_TYPE
+P[3] <= P~3.DB_MAX_OUTPUT_PORT_TYPE
+
+
